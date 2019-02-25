@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin-bottom: 100px;
+}
+footer{
+    background-image: radial-gradient(circle, #0c0d0b, #40423d, #787c73, #b7bbad, #fbffec);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+}
+
+#chat-mensajes{
+    height: 300px;
+    border: 1px solid #0a516d;
+    border-radius: 5px;
+    overflow-y: scroll;
+    -webkit-box-shadow: 10px 10px 23px -2px rgba(10,81,109,1);
+    -moz-box-shadow: 10px 10px 23px -2px rgba(10,81,109,1);
+    box-shadow: 10px 10px 23px -2px rgba(10,81,109,1);
+
+}
+
+.chat-input{
+    margin-top: 50px;
+}
