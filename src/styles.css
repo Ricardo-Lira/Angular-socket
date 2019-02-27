@@ -24,3 +24,13 @@ footer{
 .chat-input{
     margin-top: 50px;
 }
+
+/* REmoviendo stilos de bootstrap */
+
+.btn-outline-primary {
+    color: #00a8b5;
+    background-color: transparent;
+    background-image: none;
+    border-color: #00a8b5;
+}
+
