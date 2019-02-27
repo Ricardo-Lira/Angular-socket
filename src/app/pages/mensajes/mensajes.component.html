@@ -1,6 +1,20 @@
-<h1>Usuario: <small>{{wsService.usuario.nombre}}</small> </h1>
+
+<div class="container">
+
+    <h1>Usuario: <small>{{wsService.usuario.nombre}}</small>
+      <button class="btn btn-danger float-right mt-2" (click)="salir()"><i class="fas fa-lock"></i>
+           Sesion
+        </button>
+    
+    </h1>
+    
+
+</div>
+
 
 <hr>
+
+
 
 <div class="row">
   <div class="col-6">

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import { WebsocketService } from '../../services/websocket.service';
 
 @Component({
@@ -11,6 +12,10 @@ export class MensajesComponent implements OnInit {
   constructor(public wsService:WebsocketService) { }
 
   ngOnInit() {
+  }
+
+  salir(){
+    this.wsService.logoutWs();
   }
 
 }
